@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.maintenance-container {
+    text-align: center;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em; /* フォントサイズを大きく */
+    margin-bottom: 20px;
+}
+
+.maintenance-info {
+    margin-bottom: 20px;
+}
+
+.maintenance-period {
+    background-color: red;
+    color: white;
+    padding: 15px; /* パディングを大きく */
+    border-radius: 5px;
+    font-size: 1.2em; /* フォントサイズを大きく */
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* パディングを大きく */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em; /* フォントサイズを大きく */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
